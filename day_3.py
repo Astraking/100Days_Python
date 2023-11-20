@@ -1,50 +1,50 @@
-# # Odd or even numbers
-# num = int(input("Pleae enter a number: "))
-# if num % 2 == 0:
-#     print(f"The number {num} is even.")
-# else:
-#     print(f"The number {num} is odd.")
+# Odd or even numbers
+num = int(input("Pleae enter a number: "))
+if num % 2 == 0:
+    print(f"The number {num} is even.")
+else:
+    print(f"The number {num} is odd.")
     
-# # Python Pizza Deliveries
-# print("Welcome to Python Pizza Deliveries!")
-# size = input("WHat size would you like? S, M, L ").upper()
-# pepperoni = input("Do you like pepperoni? Y/ N ").upper()
-# extra_cheese = input("Do you want extra cheese? Y/N ").upper()
+# Python Pizza Deliveries
+print("Welcome to Python Pizza Deliveries!")
+size = input("WHat size would you like? S, M, L ").upper()
+pepperoni = input("Do you like pepperoni? Y/ N ").upper()
+extra_cheese = input("Do you want extra cheese? Y/N ").upper()
 
-# cost = 0.00
-# if size == 'S':
-#     cost += 15
-#     if pepperoni == 'Y':
-#         cost += 2
-#         if extra_cheese == 'Y':
-#             cost += 1
-#         else:
-#             pass
-#     else:
-#         pass
-# elif size == 'M':
-#     cost += 20
-#     if pepperoni == 'Y':
-#         cost += 3
-#         if extra_cheese == 'Y':
-#             cost += 1
-#         else:
-#             pass
-#     else:
-#         pass
-# elif size == 'L':
-#     cost += 25
-#     if pepperoni == 'Y':
-#         cost += 3
-#         if extra_cheese == 'Y':
-#             cost += 1
-#         else:
-#             pass
-#     else:
-#         pass
-# else:
-#     print("Not available!")
-# print(f"The total cost is $ {cost}.")
+cost = 0.00
+if size == 'S':
+    cost += 15
+    if pepperoni == 'Y':
+        cost += 2
+        if extra_cheese == 'Y':
+            cost += 1
+        else:
+            pass
+    else:
+        pass
+elif size == 'M':
+    cost += 20
+    if pepperoni == 'Y':
+        cost += 3
+        if extra_cheese == 'Y':
+            cost += 1
+        else:
+            pass
+    else:
+        pass
+elif size == 'L':
+    cost += 25
+    if pepperoni == 'Y':
+        cost += 3
+        if extra_cheese == 'Y':
+            cost += 1
+        else:
+            pass
+    else:
+        pass
+else:
+    print("Not available!")
+print(f"The total cost is $ {cost}.")
 
 # Love Calculator
 print("Welcome to the Love Calculator...")
@@ -75,3 +75,4 @@ else:
      print(f"Your love score is {score}% ")
 
 
+     
